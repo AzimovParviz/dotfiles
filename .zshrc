@@ -100,9 +100,7 @@ source $ZSH/oh-my-zsh.sh
 #python aliases
 #alias python="python3"
 alias venv="source venv/bin/activate"
-alias presta="ssh parvizazimov@18.184.222.153"
 alias rm="rm -i"
-alias neofetch="neofetch --iterm2 ~/Pictures/miih/sob.jpg"
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
 
 export PATH="/usr/local/sbin:$PATH"
