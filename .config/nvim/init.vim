@@ -62,3 +62,15 @@ endfunction
 
 autocmd CursorHoldI * :call <SID>show_hover_doc()
 autocmd CursorHold * :call <SID>show_hover_doc()
+
+let g:coc_global_extensions = [
+\    'coc-tsserver',
+\    'coc-prettier',
+\    'coc-pairs',
+\    'coc-java',
+\    'coc-pyright',
+\    'coc-clangd',
+\    'coc-snippets',
+\    'coc-eslint',
+\    'coc-sh'
+	  \ ]
