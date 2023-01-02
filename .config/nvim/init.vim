@@ -9,14 +9,13 @@ Plug 'tpope/vim-fugitive'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-Plug 'puremourning/vimspector'
 
 let g:coc_global_extensions = [
   \ 'coc-tsserver'
   \ ]
 call plug#end()
 
-colorscheme tokyonight-storm
+"colorscheme tokyonight-storm
 " put this in your .vimrc
 set wildignore+=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
 
