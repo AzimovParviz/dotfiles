@@ -9,7 +9,8 @@ Plug 'tpope/vim-fugitive'
 Plug 'ryanoasis/vim-devicons'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
 Plug 'folke/tokyonight.nvim', { 'branch': 'main' }
-
+Plug 'bfrg/vim-cpp-modern'
+Plug 'andweeb/presence.nvim'
 let g:coc_global_extensions = [
   \ 'coc-tsserver'
   \ ]
@@ -18,6 +19,8 @@ call plug#end()
 "colorscheme tokyonight-storm
 " put this in your .vimrc
 set wildignore+=*.pyc,*.o,*.obj,*.svn,*.swp,*.class,*.hg,*.DS_Store,*.min.*
+set tabstop=4
+set shiftwidth=4
 
 " Nerdtree config for wildignore
 let NERDTreeRespectWildIgnore=1
